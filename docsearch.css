@@ -1,0 +1,24 @@
+.docserach{
+  height: 25.1%;
+  top: 6%;
+  bottom: 26.69%;
+  width: 968px;
+  text-align: center;
+}
+.docindex2 {
+  width: 1007px;
+  height: 1300px;
+  flex-shrink: 0;
+}
+.texts{
+    font-family: cursive;
+    margin-top: 6rem;
+    font-size: 17px;
+}
+.home, .about, .services1, .button{
+    font-family: Belgrano;
+    font-size:22px;
+}
+.careforyou{
+    font-family: Abel;
+}

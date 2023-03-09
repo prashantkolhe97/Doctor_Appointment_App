@@ -1,0 +1,617 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+.text1,
+.text2 {
+  position: absolute;
+  height: 23.64%;
+  display: inline-block;
+}
+
+.text2 {
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.text1 {
+  width: 85.49%;
+  top: 76.36%;
+  left: 6.15%;
+}
+
+.best-qualities-service-with-o {
+  position: absolute;
+  height: 26.02%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 73.98%;
+  left: 0;
+}
+
+.search-your-specialist {
+  margin-bottom: 10px;
+}
+
+.search-your-specialist-onlin {
+  margin: 0;
+  padding-left: 29px;
+  font-size: 22px;
+  margin-top: -1px;
+}
+
+.points {
+  position: absolute;
+  top: 122px;
+  left: 0;
+  font-size: var(--font-inherit);
+  font-family: var(--font-inherit);
+  color: var(--color-black);
+  display: inline-block;
+  width: 403px;
+  height: 127px;
+}
+
+.best-qualities-service-with-o-parent {
+  position: absolute;
+  height: 65.02%;
+  width: 45.45%;
+  top: 7.23%;
+  right: 0;
+  bottom: 11.75%;
+  left: 54.55%;
+}
+
+.doctor-with-his-arms-crossed-w-icon,
+.doctorimg-icon {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.doctor-with-his-arms-crossed-w-icon {
+  height: 84.7%;
+  width: 93.02%;
+  top: 7.13%;
+  right: 3.82%;
+  bottom: 8.17%;
+  left: 3.16%;
+  object-fit: cover;
+  padding-bottom: 55px;
+}
+
+.doctorimg-icon {
+  height: 100%;
+  width: 100%;
+  top: 306.93%;
+  right: 0;
+  bottom: -306.93%;
+  left: 0;
+}
+
+.doctor-with-his-arms-crossed-w-parent,
+.serviceslist {
+  position: absolute;
+  height: 100%;
+  width: 46.94%;
+  top: 0;
+  right: 53.06%;
+  bottom: 0;
+  left: 0;
+}
+
+.serviceslist {
+  height: 24.68%;
+  width: 99.4%;
+  top: 80.32%;
+  right: 0.6%;
+}
+
+.circle1-icon,
+.searchlogo-icon,
+.service-section-background {
+  position: absolute;
+  max-height: 100%;
+}
+
+.service-section-background {
+  height: 100%;
+  top: 162.43%;
+  bottom: -162.43%;
+  left: calc(50% - 462px);
+  width: 968px;
+}
+
+.circle1-icon {
+  height: 49.51%;
+  top: 0;
+  bottom: 50.49%;
+  left: calc(50% - 35.06px);
+  width: 65.08px;
+}
+
+.searchlogo-icon {
+  height: 18.88%;
+  top: 15.35%;
+  bottom: 65.77%;
+  left: calc(50% - 15.54px);
+  width: 26.12px;
+  object-fit: cover;
+}
+
+
+.findthe-best {
+  height: 41.47%;
+  top: 58.53%;
+  left: calc(50% - 67px);
+  display: inline-block;
+}
+.xyz{
+    height: 41.47%;
+    top: 58.53%;
+    left: calc(50% - 67px);
+    display: inline-block;
+    position: relative;
+}
+.name{
+        font-size: 19px;
+    font-weight: bold;
+}
+.info{
+        font-size: 17px;
+}
+
+.service1 {
+    height: 47.36%;
+    top: 52.12%;
+    bottom: 9.52%;
+    left: calc(49% - 365px);
+    position: relative;
+    float: left;
+    margin: 24px;
+}
+
+.appointlogo-icon,
+.circle2-icon {
+  position: absolute;
+  max-height: 100%;
+}
+
+.circle2-icon {
+  height: 45.45%;
+  top: 0;
+  bottom: 54.55%;
+  left: calc(50% - 42.32px);
+  width: 76.63px;
+}
+
+.appointlogo-icon {
+  height: 18.46%;
+  width: 24.1%;
+  top: 11.93%;
+  right: 40.71%;
+  bottom: 69.6%;
+  left: 35.2%;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.getappoint {
+  height: 45.56%;
+  top: 54.44%;
+  left: calc(50% - 68px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 136px;
+}
+
+.circle-icon,
+.getappoint,
+.service2 {
+  position: absolute;
+}
+
+.service2 {
+  height: 39.95%;
+  top: 51.63%;
+  bottom: 8.42%;
+  left: calc(50% - 64px);
+  width: 136px;
+}
+
+.circle-icon {
+  height: 53.66%;
+  top: 0;
+  bottom: 46.34%;
+  left: calc(50% - 43.3px);
+  max-height: 100%;
+  width: 76.63px;
+}
+
+.happy-consultations {
+  position: absolute;
+  height: 34.7%;
+  top: 65.3%;
+  left: calc(50% - 76px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 152px;
+}
+
+.s3logo-icon {
+  position: absolute;
+  height: 25.36%;
+  top: 13.41%;
+  bottom: 61.23%;
+  left: calc(50% - 25.65px);
+  max-height: 100%;
+  width: 40.84px;
+  object-fit: cover;
+}
+
+.service3 {
+  height: 37.04%;
+  top: 52.69%;
+  bottom: 10.28%;
+  left: calc(50% + 234px);
+  width: 152px;
+  font-size: 25px;
+}
+
+.service3,
+.services,
+.text {
+  position: absolute;
+}
+
+.text {
+  height: 12.43%;
+  top: 17.99%;
+  left: calc(50% - 340px);
+  font-size: 50px;
+  text-align: left;
+  display: inline-block;
+  width: 737px;
+}
+
+.services {
+  height: 28.1%;
+  top: 50.00%;
+  bottom: 26.69%;
+  left: calc(50% - 481.5px);
+  width: 968px;
+  text-align: center;
+  font-size: var(--font-size-sm);
+}
+
+.location-icon {
+  height: 99.92%;
+}
+
+.location-icon,
+.outline-search-white-24dp-icon,
+.search-icon {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.search-icon {
+  height: 99.92%;
+  width: 12.52%;
+  top: 0.08%;
+  right: 0;
+  bottom: 0;
+  left: 87.48%;
+}
+
+.location-icon {
+  width: 36.34%;
+  top: 0;
+  right: 21.88%;
+  bottom: 0.08%;
+  left: 41.78%;
+}
+
+.outline-search-white-24dp-icon {
+  height: 69.81%;
+  width: 5.97%;
+  top: 17.64%;
+  right: 2.88%;
+  bottom: 12.55%;
+  left: 91.15%;
+  object-fit: cover;
+}
+
+.select-area {
+  position: absolute;
+  height: 27%;
+  width: 17.47%;
+  top: 27.1%;
+  left: 54%;
+  display: inline-block;
+}
+
+.location-icon1 {
+  position: absolute;
+  height: 99.92%;
+  width: 36.24%;
+  top: 0.08%;
+  right: 63.76%;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.select-area1 {
+  position: absolute;
+  width: 18.49%;
+  top: 24.39%;
+  left: 8.88%;
+  display: inline-block;
+}
+
+.all-services,
+.services-bar {
+  position: absolute;
+  bottom: 0;
+}
+
+.services-bar {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.all-services {
+  height: 11.06%;
+  width: 78.54%;
+  top: 88.94%;
+  right: 8.14%;
+  left: 13.33%;
+}
+
+.banner-image {
+  position: absolute;
+  height: 88.94%;
+  top: 0;
+  bottom: 11.06%;
+  left: calc(50% + 102.03px);
+  width: 371px;
+}
+
+.femdoc-icon {
+  position: absolute;
+  top: 92.68px;
+  left: 593.63px;
+  width: 311.5px;
+  height: 259.74px;
+  object-fit: cover;
+}
+
+.join-us-and {
+  margin-block-start: 0;
+  margin-block-end: 10px;
+}
+
+.services-that-will {
+  margin: 0;
+}
+
+.smallfont,
+.text21 {
+  position: absolute;
+  display: inline-block;
+}
+
+.smallfont {
+  top: 199.65px;
+  left: 15px;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  width: 472.03px;
+  height: 23.97px;
+}
+
+.text21 {
+  top: 0;
+  left: 2px;
+  font-family: var(--font-barlow-semi-condensed);
+  color: var(--color-gray-200);
+  width: 424.03px;
+  height: 44.34px;
+}
+
+.text11,
+.textfront {
+  position: absolute;
+  left: 0;
+}
+
+.text11 {
+  top: 73.34px;
+  font-family: var(--font-charm);
+  color: #368de7;
+  display: inline-block;
+  width: 264.02px;
+  height: 30.56px;
+
+}
+
+.textfront {
+  top: 86.17px;
+  width: 487.03px;
+  height: 223.62px;
+  font-size: var(--font-size-lg);
+  color: #151414;
+  margin-left: 40px;
+}
+
+.homepage {
+  position: absolute;
+  height: 35.61%;
+  width: 93.95%;
+  top: 4.09%;
+  right: 1.69%;
+  bottom: 60.3%;
+  left: 4.36%;
+  font-size: var(--font-size-2xs);
+  color: var(--color-gray-100);
+}
+
+.careforyou {
+  position: absolute;
+  height: 47.41%;
+  width: 71.38%;
+  top: 0;
+  left: 28.62%;
+  display: inline-block;
+}
+
+.healthlogo-icon {
+  position: absolute;
+  top: 0.54px;
+  left: 0;
+  width: 40.96px;
+  height: 29.42px;
+  object-fit: cover;
+}
+
+.logo {
+  position: absolute;
+  height: 49.11%;
+  width: 16.5%;
+  top: 24.22%;
+  right: 80.74%;
+  bottom: 26.67%;
+  left: 2.75%;
+  font-size: 26px;
+  color: var(--color-black);
+  font-family: var(--font-abel);
+}
+
+.menubar-icon,
+.startedbox-icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-md);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.startedbox-icon {
+  height: 110.53%;
+  width: 102.09%;
+  top: -5.26%;
+  right: -1.05%;
+  bottom: -5.26%;
+  left: -1.05%;
+}
+
+.started {
+  position: absolute;
+  height: 40.2%;
+  width: 72.38%;
+  top: 15.65%;
+  left: 17.61%;
+  display: inline-block;
+}
+
+.button {
+  position: absolute;
+  height: 62.3%;
+  width: 19.22%;
+  top: 21.31%;
+  right: 3.42%;
+  bottom: 16.39%;
+  left: 77.36%;
+  color: rgba(7, 7, 7, 0.98);
+}
+
+.about {
+  height: 15.96%;
+}
+
+.about,
+.home,
+.services1 {
+  position: absolute;
+  top: 30.19%;
+  display: inline-block;
+}
+
+.services1 {
+  height: 15.96%;
+  width: 10.64%;
+  left: 60.99%;
+}
+
+.about {
+  width: 7.61%;
+  left: 44.79%;
+}
+
+.home {
+  height: 14.89%;
+  width: 7.52%;
+  left: 29.95%;
+}
+
+.navigation {
+  position: absolute;
+  height: 4.54%;
+  width: 98.71%;
+  top: 0;
+  right: 0;
+  bottom: 95.46%;
+  left: 1.29%;
+  font-size: var(--font-size-xs);
+  font-family: var(--font-belgrano);
+}
+
+.index1,
+.index2 {
+  position: relative;
+}
+
+.index2 {
+  width: 1007px;
+  height: 1345px;
+  flex-shrink: 0;
+  background-color: #d39e0045;
+
+}
+
+.index1 {
+  background-color: #fff;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 6px 0;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-200);
+  font-family: var(--font-abel);
+}

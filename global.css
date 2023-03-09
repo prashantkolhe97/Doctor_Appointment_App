@@ -1,0 +1,23 @@
+:root {
+  /* fonts */
+  --font-belgrano: Belgrano;
+  --font-abel: Abel;
+  --font-charm: Charm;
+  --font-barlow-semi-condensed: "Barlow Semi Condensed";
+  --font-inherit: inherit;
+
+  /* font sizes */
+  --font-size-2xs: 20px;
+  --font-size-xs: 22px;
+  --font-size-sm: 28px;
+  --font-size-base: 40px;
+  --font-size-lg: 60px;
+
+  /* Colors */
+  --color-gray-100: #171313;
+  --color-gray-200: #070707;
+  --color-black: #000;
+
+  /* border radiuses */
+  --br-md: 20px;
+}

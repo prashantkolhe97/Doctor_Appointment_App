@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+  <link rel="stylesheet" href="./global.css" />
+  <link rel="stylesheet" href="./index.css" />
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Abel:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow Semi Condensed:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Charm:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Belgrano:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+</head>
+
+<body>
+  <div class="index1">
+    <div class="index2">
+      <div class="serviceslist">
+        <div class="best-qualities-service-with-o-parent">
+          <div class="best-qualities-service-with-o">
+            <div class="text2">Best qualities service with</div>
+            <div class="text1">our experiences doctor</div>
+          </div>
+          <div class="points">
+            <ul class="search-your-specialist-onlin">
+              <li class="search-your-specialist">
+                Search your specialist & online consultation
+              </li>
+              <li class="search-your-specialist">
+                Consult with our top specialist
+              </li>
+              <li>Doctor are available 24x7</li>
+            </ul>
+          </div>
+        </div>
+        <div class="doctor-with-his-arms-crossed-w-parent">
+          <img class="doctor-with-his-arms-crossed-w-icon" alt=""
+            src="public/doctorwithhisarmscrossedwhitebackgroundremovebgpreview-1@2x.png" /><img class="doctorimg-icon"
+            alt="" />
+        </div>
+      </div>
+      <div id="searchSection" class="services">
+        <div class="text">3 Easiest steps to find your solution</div>
+        <div class="service1" style="margin: 0px;">
+          <img class="circle1-icon" alt="" src="public/circle1.svg" /><img class="searchlogo-icon" alt=""
+            src="public/searchlogo@2x.png" />
+          <div class="xyz">Find the Best Doctor</div>
+        </div>
+        <div class="service2">
+          <img class="circle2-icon" alt="" src="public/circle2.svg" /><img class="appointlogo-icon" alt=""
+            src="public/appointlogo@2x.png" />
+          <div class="getappoint">Get Appointment</div>
+        </div>
+        <div class="service3">
+          <img class="circle-icon" alt="" src="public/circle.svg" />
+          <div class="happy-consultations">Happy consultations</div>
+          <img class="s3logo-icon" alt="" src="public/s3logo@2x.png" />
+        </div>
+      </div>
+      <div class="homepage">
+        <div class="all-services">
+          <!-- <div class="services-bar">
+            <img class="search-icon" alt="" src="public/search.svg" /><img class="location-icon" alt=""
+              src="public/location.svg" /><img class="outline-search-white-24dp-icon" alt=""
+              src="public/outline-search-white-24dp@2x.png" />
+            <div class="select-area">Select Area</div>
+            <img class="location-icon1" alt="" src="public/location1.svg" />
+            <div class="select-area1">Find your Doctor</div>
+          </div> -->
+          <!--<form style="padding-right: 13rem;">-->
+            <div class="form-group">
+              <label for="doctor_type">Search Doctor type</label>
+              <input type="text" class="form-control" id="doctor_type" aria-describedby="emailHelp">
+
+            </div>
+            <div class="form-group">
+              <label for="doctor_area">Area</label>
+              <input type="text" class="form-control" id="doctor_area">
+            </div>
+            <div class="form-check">
+              <input id="search-btn" type="submit" class="btn btn-primary">
+            <a href="https://drive.google.com/file/d/1BhbKYIs6Ga5qZug2tVVUyh8jiXupsA4Y/view?usp=share_link" style="margin-left: 3rem;">Refer Sample Data Here</a>
+            </div>
+
+          <!--</form>-->
+        </div>
+      </div>
+      <div class="banner-image"></div>
+      <img class="femdoc-icon" alt="" src="public/femdoc@2x.png" />
+      <div class="textfront">
+        <div class="smallfont">
+          <p class="join-us-and">
+            Join Us And Take Care Of Yourself And Your Family With Health
+          </p>
+          <p class="services-that-will">
+            Services That Will Make You Feel Confident And Safe In Your
+            Daily Life
+          </p>
+        </div>
+        <div class="text21">Search the Doctor</div>
+        <div class="text11">You Want</div>
+      </div>
+    </div>
+    <div class="navigation">
+      <div class="logo">
+        <div class="careforyou">Health4You</div>
+        <img class="healthlogo-icon" alt="" src="public/healthlogo@2x.png" />
+      </div>
+      <img class="menubar-icon" alt="" src="public/menubar.svg" />
+      <div class="button">
+        <img class="startedbox-icon" alt="" src="public/startedbox.svg" />
+        <div class="started">Get Started</div>
+      </div>
+      <div class="services1">Services</div>
+      <div class="about">About</div>
+      <div class="home">Home</div>
+    </div>
+  </div>
+  </div>
+
+<script>
+  $(document).ready(function () {
+    $("#search-btn").click(function () {
+      var doctor_type = $("#doctor_type").val();
+      var doctor_area = $("#doctor_area").val();
+
+      $.post("webservice1.php", { search: doctor_type, area: doctor_area }, function (response) {
+        $("#searchSection").html(response);
+      });
+    });
+  });
+</script>
+</body>
+</html>
